@@ -28,7 +28,6 @@ private static Key generateKey() throws Exception {
  public static void main(String args[]) throws Exception{
     	String a =encrypt("abcd");
     	System.out.println(a);
-    	String s =decrypt(a);
-    	System.out.println(s);
+    
     }
 }
